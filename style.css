@@ -19,7 +19,11 @@ p {
   align-items: center;
 }
   .text {
-    font-size: 3rem;
-    font-family: serif;
+    font-size: 4rem;
+    font-family: HeyBrothers;
     align-self: center;
+  }
+  @font-face {
+    font-family: HeyBrothers;
+    src: url(Hey\ Brothers.ttf);
   }
