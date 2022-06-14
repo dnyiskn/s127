@@ -1,0 +1,16 @@
+html {
+    background-color: #e9e5da;
+  }
+.container {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+  }
+.textContainer {
+  display: flex;
+  align-items: center;
+}
+  .text {
+    font-size: 3rem;
+    font-family: serif;
+  }
