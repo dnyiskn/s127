@@ -4,10 +4,12 @@ html {
 body {
    margin:0;
   }
+
 .container {
     display: flex;
     max-height: 100vh;
     width:100vw;
+    justify-content: center;
   }
   .textContainer {
   display: flex;
@@ -16,4 +18,5 @@ body {
   .text {
     font-size: 3rem;
     font-family: serif;
+    align-self: center;
   }
