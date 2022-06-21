@@ -1,29 +1,29 @@
 html {
-    background-color: #e9e5da;
+    background-color: #212c36;
   }
 body {
    margin:0;
   }
-p {
+/* p {
     align-self: center;
-    margin-right: 10%;
-}
+    
+} */
 .container {
     display: flex;
-    max-height: 100vh;
-    width:100vw;
-    justify-content: center;
+    max-height: 100vw;
+    align-items: center;
   }
-  .textContainer {
-  display: flex;
-  align-items: center;
-}
   .text {
     font-size: 4rem;
-    font-family: HeyBrothers;
-    align-self: center;
+    font-family: 'La Luxes';
+    text-align: center;
+    max-width: 80%;
+    color: #AE7D56;
   }
   @font-face {
-    font-family: HeyBrothers;
-    src: url(Hey\ Brothers.ttf);
+    font-family: 'La Luxes';
+    src: url(Set-Sail-Studios-La-Luxes-Serif.svg) format('svg');
+  }
+  .image{
+    max-width: 50%;
   }
