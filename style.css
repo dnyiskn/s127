@@ -1,5 +1,5 @@
 html {
-    background-color: #212c36;
+    background-color: #AE7D56;
   }
 body {
    margin:0;
@@ -8,21 +8,27 @@ body {
     align-self: center;
     
 } */
-.container {
+.container-main {
     display: flex;
-    max-height: 100vw;
+    justify-content: center;
+    height: 100vh;
     align-items: center;
+  }
+  .container-text{
+    padding-left: 4vw;
   }
   .text {
     font-size: 4rem;
     font-family: 'La Luxes';
     text-align: center;
-    color: #AE7D56;
+    color: black;
   }
   @font-face {
     font-family: 'La Luxes';
     src: url(Set-Sail-Studios-La-Luxes-Serif.svg) format('svg');
   }
   .image{
-    max-width: 50%;
+    width:40vw;
+    height: auto;
+    font-size: 4rem;
   }
